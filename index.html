@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Porsche</title>
+  <!-- KEYWORDS -->
+
+  <meta name="keywords"
+    content="Porsche, Porsche Uruguay, Porsche UY, Porsche Cayenne, Porsche Taycan, Porsche 911, Porsche 918, Porsche RWB, Tienda Porsche, Porsche en venta, Automotora Porsche">
+
+  <!-- DESCRIPTION -->
+
+  <meta name="description" content="Web Porsche oficial Uruguay">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- FUENTE POPPINS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    
-    <script src="./js/script.js"></script>
+
+  <!-- NAVBAR -->
+
+  <div class="navbar">
+    <img src="./media/porschelogo.png" alt="logoPorsche">
+    <ul>
+      <li><a href="#">INICIO</a></li>
+      <li><a href="#">VEHÍCULOS</a></li>
+      <li><a href="#">CONTACTO</a></li>
+    </ul>
+  </div>
+
+  <!-- CONTENIDO -->
+
+  <div class="contenido">
+    <h1>ELEGÍ TU MODELO</h1>
+    <p>Selecciona el vehiculo en el que estás interesado para ver más información sobre sus prestaciones.</p>
+    <div class="botones">
+      <button id="coupe" class="button-86">Coupé</button>
+      <button id="sedan" class="button-86">Sedán</button>
+      <button id="suv" class="button-86">SUV</button>
+      <button id="todos" class="button-86">Todos</button>
+    </div>
+  </div>
+
+  <div id="contenido2"></div>
+  <div id="contenedorReservas"></div>
+  <div id="contenedorContactarse">
+    <button id="botonContactarse" class="button-86">¡Contáctanos!</button>
+  </div>
+  
+  
+  <script src="./js/script.js"></script>
 </body>
+
 </html>
