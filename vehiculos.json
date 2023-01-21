@@ -1,0 +1,10 @@
+[
+    { "id": 12, "nombre": "BMW M4 Coupé", "categoria": "Coupe", "precio": 120000, "color": "Amarillo", "img": "./media/bmw-m4-coupe.jpg" },
+    { "id": 15, "nombre": "BMW X5 M", "categoria": "SUV", "precio": 90000, "color": "Azul", "img": "./media/bmw-x5-m.jpg" },
+    { "id": 32, "nombre": "BMW Serie 5", "categoria": "Sedan", "precio": 55000, "color": "Verde", "img": "./media/bmw-serie5-sedan.jpg" },
+    { "id": 84, "nombre": "BMW M2 Coupé", "categoria": "Coupe", "precio": 88000, "color": "Gris", "img": "./media/bmw-m2-coupe.jpg" },
+    { "id": 56, "nombre": "BMW Serie 7 Sedán", "categoria": "Sedan", "precio": 120000, "color": "Amarillo", "img": "./media/bmw-serie7-sedan.jpg" },
+    { "id": 21, "nombre": "BMW X1", "categoria": "SUV", "precio": 90000, "color": "Azul", "img": "./media/bmw-x1.jpg" },
+    { "id": 10, "nombre": "BMW Serie 8 Coupe", "categoria": "Coupe", "precio": 55000, "color": "Verde", "img": "./media/bmw-serie8-coupe.jpg" },
+    { "id": 51, "nombre": "BMW Serie 2 Gran Coupé", "categoria": "Coupe", "precio": 88000, "color": "Gris", "img": "./media/bmw-serie2-grancoupe.jpg" }
+]
